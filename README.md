@@ -1,2 +1,37 @@
-# recogNum-Pytorch
-recognize handwriting nums from Mnist datasets by Pytorch
+# 简介
+
+本项目是利用Pytorch简单编写三层网络，采用距离矢量和作为目标函数。项目中采用pytorch自带的mnist数据集进行训练和测试。
+
+编码中也引入了断点续训、tensorBoard展示训练情况等功能。
+
+代码中也封装了DataSets类、网络类，可以参考学习
+
+
+
+# 训练
+
+## 网络
+
+输入层-隐藏层-输出层
+
+输入层大小：784
+
+隐藏层：100
+
+输出层：10
+
+
+
+## 参数
+
+epoch：3000
+
+训练集大小：2000
+
+batch大小：64
+
+
+
+# 测试结果
+
+用100张图片进行测试，准确率为96%
